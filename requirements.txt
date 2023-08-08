@@ -3,4 +3,5 @@ transformers
 torch
 pandas
 numpy
+streamlit
 
