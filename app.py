@@ -79,7 +79,7 @@ def main():
                     lines = code_result.split('\\n')
                     for i in range(len(lines)-1):
                         st.code(lines[i], language='python')
-                    file_path = "enerated_code_gorilla_mpt_7b_hf_v0.py"
+                    file_path = "generated_code_gorilla_mpt_7b_hf_v0.py"
                     with open(file_path, "w") as f:
                         for i in range(len(lines)-1):
                             f.write(lines[i].strip().replace('\\"', '"') + '\n')
