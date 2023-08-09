@@ -1,1 +1,7 @@
 openai
+transformers
+torch
+pandas
+numpy
+streamlit
+
